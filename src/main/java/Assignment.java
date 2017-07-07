@@ -1,0 +1,19 @@
+package main.java;
+
+/**
+ * Created by cmalik on 7/7/2017.
+ */
+public class Assignment {
+    private Pen p;
+    public Pen getP()
+    {return p;}
+    public void setP(Pen p)
+    {
+        this.p=p;
+    }
+    public void writeAssignment(String str)
+    {
+        p.write(str);
+    }
+
+}
